@@ -1,9 +1,9 @@
 $(document).ready(function(){
-    const url = 'https://jsonplaceholder.typicode.com/posts';
+    const url = 'http://192.168.0.12:8080/Temperatura/rest/prueba/ciudades';
     $('.btn').click(function(){
         $.ajax({
             url: url,
-            type:"GET",
+            type:"POST",
             success:function(result){
                 console.log("Resultado GET->", result);
             },
