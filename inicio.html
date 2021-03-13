@@ -65,19 +65,13 @@
             <div class="col-lg-5">
                 <h1 class="font-weight-light">Seleccione Ciudad</h1>
                 <hr style="width: 450px;">
-                <select class="form-control" id="FormControlCiudad">
-                    <option>Seleccione Ciudad</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5</option>
+                <select class="form-control" name="ciudades" id="FormControlCiudad">
+                    <option >Seleccione Ciudad</option>
                 </select>
                 <hr style="width: 450px;">
-                <p>This is a template that is great for small businesses. It doesn't have too much fancy flare to it,
-                    but it makes a great use of the standard Bootstrap core components. Feel free to use this template
-                    for any project you want!</p>
+                <p name="descripcion">Descripcion de la ciudad seleccionada, porfavor elegir una.</p>
                 <hr style="width: 450px;">
-                <a class="btn btn-secondary" href="#">Adicionar Ciudad</a>
+                <button class="btn btn-secondary" name="adicionarCiudad">Adicionar Ciudad</button>
             </div>
             <!-- /.col-md-4 -->
         </div>
@@ -87,47 +81,8 @@
         <hr style="width: 1145px;">
         <h1 class="font-weight-light text-center">Ciudades Seleccionadas</h1>
         <!-- Content Row -->
-        <div class="row">
-            <div class="col-md-4 mb-5">
-                <div class="card h-100">
-                    <div class="card-body">
-                        <h2 class="card-title">Card One</h2>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem magni quas ex
-                            numquam, maxime minus quam molestias corporis quod, ea minima accusamus.</p>
-                    </div>
-                    <div class="card-footer">
-                        <a href="#" class="btn btn-secondary btn-sm">More Info</a>
-                    </div>
-                </div>
-            </div>
-            <!-- /.col-md-4 -->
-            <div class="col-md-4 mb-5">
-                <div class="card h-100">
-                    <div class="card-body">
-                        <h2 class="card-title">Card Two</h2>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod tenetur ex
-                            natus at dolorem enim! Nesciunt pariatur voluptatem sunt quam eaque, vel, non in id dolore
-                            voluptates quos eligendi labore.</p>
-                    </div>
-                    <div class="card-footer">
-                        <a href="#" class="btn btn-secondary btn-sm">More Info</a>
-                    </div>
-                </div>
-            </div>
-            <!-- /.col-md-4 -->
-            <div class="col-md-4 mb-5">
-                <div class="card h-100">
-                    <div class="card-body">
-                        <h2 class="card-title">Card Three</h2>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem magni quas ex
-                            numquam, maxime minus quam molestias corporis quod, ea minima accusamus.</p>
-                    </div>
-                    <div class="card-footer">
-                        <a href="#" class="btn btn-secondary btn-sm">More Info</a>
-                    </div>
-                </div>
-            </div>
-            <!-- /.col-md-4 -->
+        <div class="row" name="ciudadesList">
+  
 
         </div>
         <!-- /.row -->
